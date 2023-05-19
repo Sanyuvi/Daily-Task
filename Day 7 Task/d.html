@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>COUNTRIES</title>
+</head>
+<body>
+  <h1>
+    Example for reduce function
+  </h1>
+    <script>
+        function reqListener()
+         {
+  let data = JSON.parse(this.responseText);
+  let total = data.reduce((sum,count) =>
+    sum + count.population,0)
+  console.log(`Total population of all countries : ${total}`)
+}
+const req = new XMLHttpRequest();
+req.addEventListener("load", reqListener);
+req.open("GET", "https://restcountries.com/v3.1/all");
+req.send();
+    </script>
+</body>
+</html>
