@@ -1,0 +1,46 @@
+body{
+    
+    background-color: rgba(173, 216, 230, 0.63);
+    width: fit-content;
+}
+.star{
+    color: red;
+}
+.icon{
+    color: orange;
+    font-size: 30px;
+}
+.one{
+    margin: 20px;
+    
+}
+label p{
+    font-size:medium;
+}
+.name .main{
+    width: 20%;
+    padding: 5px 10px;
+}
+.email .local{
+    width: 42%;
+    padding: 5px 10px;
+}
+table{
+    border-collapse: collapse;
+    
+}
+table tbody td,th{
+    padding: 10px;
+    width: 5%;
+}
+table tbody th{
+    font-size: 1.0em;
+    background-color:rgba(105, 105, 105, 0.26)
+}
+table tbody td{
+    text-align: center;
+}
+input[type="radio"]{
+    width: 15px;
+    height: 20px;
+}
