@@ -1,0 +1,29 @@
+.buttonBorder{
+    border-color: black;
+    color: black;
+}
+
+.btn-primary{
+    background-color: skyblue;
+}
+
+.btn-warning{
+    background-color: rgb(243, 243, 97);
+    
+}
+
+.form-control{
+    border-color: blue;
+}
+
+.container{
+    /* padding-left: 25%; */
+    padding-right: 50%;
+}
+
+.alignment{
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+
